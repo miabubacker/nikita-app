@@ -1,0 +1,77 @@
+.howiWork_Container{
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(37,37,37), #f6f6f6;
+    border-radius: 32px;
+    box-shadow: 0 8px 32px #0000000f;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    scroll-margin-top: 8px;
+    width: 100%;
+    z-index: 0;
+    .workContainer{
+        align-content: center;
+        align-items: center;
+        background:rgb(70, 140, 245);
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: center;
+        overflow: hidden;
+        padding: 32px 32px 0;
+        position: relative;
+        width: 100%;
+        .topLayer{
+            align-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 6px;
+            height: min-content;
+            justify-content: flex-start;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            .mydesign{
+                 font-size: 12px;
+                 font-weight: 600;
+                 text-transform: uppercase;
+            }
+            h2{
+                 font-size: 30px;
+            }
+            .content{
+                align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0 0 32px;
+    position: relative;
+    width: 100%;
+     font-size: 16px;
+     line-height: 1.8rem;
+     font-weight: 500;
+    //  letter-spacing: 0.5px;
+            }
+        }
+    }
+}

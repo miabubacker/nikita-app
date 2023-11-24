@@ -1,0 +1,119 @@
+.profile_Container{
+    backdrop-filter: blur(5px);
+    border-radius: 32px;
+    outline: none;
+    box-shadow: 0 8px 32px #0000000f;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 8px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px 0 40px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    // .profile{
+        // position: absolute;
+        // border-radius: inherit;
+        // top: 0;
+        // right: 0;
+        // bottom: 0;
+        // left: 0;
+        // .gradient{
+            // background: linear-gradient(180deg,rgba(255,255,255,0) 39.898370768744066% 100%);
+            // box-shadow: inset 0 -160px 100px -32px;
+            // flex: none;
+            // inset: 0;
+            // overflow: visible;
+            // position: absolute;
+            // z-index: 1;
+        .ims{
+            position: absolute;
+    border-radius: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    .imgsection{
+        display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
+    }
+}
+.gradient{
+    background-image: linear-gradient(180deg,rgba(255,255,255,0) 39.898370768744066%,rgb(37,37,37), rgb(255, 255, 255) 141%);
+    box-shadow: inset 0 -160px 100px -32px rgb(37,37,37);
+    flex: none;
+    inset: 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 1;
+
+}
+.set{
+    flex: none;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+   
+    .profile_textContainer{
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 24px;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+       
+        .name{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .socialnetworkContainer{
+            align-content: center;
+            align-items: center;
+            display: flex;
+            flex: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 8px;
+            height: min-content;
+            justify-content: center;
+            overflow: visible;
+            padding: 0;
+            position: relative;
+            width: 290px;
+            z-index: 1;
+             cursor: pointer;
+            .circle{
+               
+                color: #ffffff;
+                border-radius: 50%;
+                border:  1px solid #383838;
+                display: flex;
+              justify-content: center;
+              align-items: center;
+                overflow: hidden;
+height: 40px;
+                width: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}

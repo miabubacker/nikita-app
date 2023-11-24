@@ -1,0 +1,16 @@
+.footerContainer{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: center;
+    min-height: 168px;
+    overflow: hidden;
+    padding: 80px 0 40px;
+    position: relative;
+    width: 100%;
+}
