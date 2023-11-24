@@ -1,0 +1,22 @@
+
+@use './typography' as *;
+@use './color' as *;
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    // font-family: var(--font-family);
+    // overflow: hidden;
+    
+}
+
+html, body, #main {
+    // height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var( --main-bg-black);
+    font-family: 'Rubik', sans-serif;
+    min-height: 100vh;
+    width: auto;
+  }

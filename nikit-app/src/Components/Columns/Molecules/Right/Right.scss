@@ -1,0 +1,16 @@
+.right_Container{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 104px 0 16px;
+    position: relative;
+    width: 400px;
+    z-index: 1;
+    }

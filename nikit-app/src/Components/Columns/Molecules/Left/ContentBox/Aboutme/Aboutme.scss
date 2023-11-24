@@ -1,0 +1,113 @@
+.aboutme_Container{
+    background: #252525;
+    border-radius: 32px;
+    box-shadow: 0 8px 32px #0000000f;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 32px;
+    position: relative;
+    scroll-margin-top: 8px;
+    width: 100%;
+    z-index: 1;
+    .about_me{
+      
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        h2{
+    font-size: 12px;
+    color: #90D2F8;
+     font-weight: 500;
+     line-height: 17px;
+        }
+        h1{
+            font-weight: 600;
+             font-size: 28px;
+             line-height: 34px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+    .buttons{
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 8px;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        .button_container{
+            align-items: center;
+            color: #ffffff;
+            border-radius: 16px;
+            border:  1px solid #383838;
+            display: flex;
+            flex: none;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 16px;
+            height: min-content;
+            justify-content: space-between;
+            overflow: hidden;
+            padding: 24px;
+            position: relative;
+            text-decoration: none;
+            width: 100%;
+            cursor: pointer;
+            img{
+                 width: 100%;
+                 height: 100%;
+                 object-fit: cover;
+            }
+            .imgs{
+                 width: 28px;
+                 height: 28px;
+            }
+            .logo_text{
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: 1 0 0px;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;            
+            // .circle{
+            //     width: 28px;
+            //     height: 28px;
+            //     background: blue;
+            //     color: white;
+            //     border-radius: 50%;
+            //     padding: 4px;
+            // }
+        }
+        }
+        .button_container:hover{
+            transition: 0.5s all;
+            transform: scale(1.05);
+        }
+    }
+    
+}
