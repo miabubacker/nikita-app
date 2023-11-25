@@ -1,0 +1,100 @@
+.Telegram_Container{
+    // background: #191125;
+    border-radius: 32px;
+    box-shadow: 0 8px 32px #0000000f;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    scroll-margin-top: 8px;
+    width: 100%;
+    z-index: 0;
+    padding: 32px;
+    .upperLayer{
+         display: flex;
+         flex-direction: column;
+         gap: 6px;
+    .Topsection{
+         display: flex;
+         justify-content: space-between;
+         width: 100%;
+         align-items: center;
+         .channel{
+            font-size: 12px;
+            color: #B388FF;
+            text-transform: uppercase;
+             font-weight: 400;
+             width: 100%;
+         }
+    }
+    .Title{
+         font-size: 30px;
+          font-weight: 600;
+    }
+    .about{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.section_container{
+    border: 1px solid #B388FF;
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap:16px
+}
+.bgcolor{
+    background: linear-gradient(180deg,rgba(175, 57, 57, 0) -159.6040373442388%, #2C2B30 40.138826029634586%);
+    flex: none;
+    inset: -1px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.bg{
+    aspect-ratio: 1.5091575091575091 / 1;
+    flex: none;
+    height: var(aspect-ratio, 484px);
+    left: -165px;
+    position: absolute;
+    right: -165px;
+    top: -160px;
+    z-index: -1;
+}
+.btnmain{
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(262deg,#AC8DE7 0%,#8D97EA 100%);
+    border-radius: 16px;
+    box-shadow: 0 0.48174984141951427px 1.252549587690737px #9197ea05, 0 1.8308266425947657px 4.760149270746391px #9197ea13, 0 8px 20.8px #9197ea52;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    .btnContainer{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0);
+        transform: translateZ(0px);
+        /* border-radius: 16px; */
+        position: relative;
+    }
+}
+}

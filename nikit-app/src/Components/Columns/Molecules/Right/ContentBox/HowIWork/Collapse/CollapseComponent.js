@@ -1,20 +1,17 @@
 import React from 'react'
 import { Collapse } from "antd";
 import AddFillIcon from "remixicon-react/AddFillIcon";
-import MailFillIcon from "remixicon-react/MailFillIcon";
-import PhoneFillIcon from "remixicon-react/PhoneFillIcon";
-import ShareBoxFillIcon from "remixicon-react/ShareBoxFillIcon";
-import CloseFillIcon from "remixicon-react/CloseFillIcon";
-export default function CollapseComponent() {
+import './Collapse.scss'
+export default function CollapseComponent(props) {
     const { Panel } = Collapse;
+     const{value,index}=props
   return (
-    <section>
+    <section className='colapse'>
 
 
     <Collapse
           bordered={false}
           className="CollapseParent"
-          defaultActiveKey={["1"]}
           expandIcon={({ isActive }) => (
             <div>
               <AddFillIcon
@@ -28,8 +25,8 @@ export default function CollapseComponent() {
           expandIconPosition="right"
           onChange={() => { }}
         >
-          <Panel key="1" header="Contacts">
-            {/* {contact()} */}
+          <Panel key={index} header={value.title}>
+         <div>   <p>{value.about}</p></div>
           </Panel>
         </Collapse>
         </section>

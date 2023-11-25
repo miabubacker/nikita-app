@@ -1,0 +1,41 @@
+.colapse{.CollapseParent{
+    border-radius: 0;
+    border-bottom: 0.5px solid #383838;
+    // padding: 0;
+    height: 100%;
+    .collapseHeaderIconCollapse:hover{
+color: rgb(70, 140, 245);
+ transition:  all 0.2s;
+    }
+    .collapseHeaderIconExpand{
+        transform: rotate(-45deg);
+        transition:  all 0.5s;
+        color: #bbbb;
+
+    }
+    .ant-collapse-item{
+        .ant-collapse-header{
+             color: white;
+             padding: 16px 0;
+              font-size: 18px;
+              font-weight: 500;
+        }
+        .ant-collapse-content-box{
+            transition:  all 0.5s;
+            padding: 0;
+            p{
+                 font-size: 17px;
+                 font-weight: 400;
+                padding-bottom: 16px;
+                color: #bbbb;
+            }
+        }
+    }
+}
+}
+.colapse:last-child{
+.CollapseParent{
+     border: none;
+}
+}
+
