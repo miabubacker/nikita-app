@@ -1,0 +1,126 @@
+.getinTouch_Container{
+    background: rgb(37,37,37);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px #0000000f;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    scroll-margin-top: 8px;
+    width: 100%;
+    z-index: 0;
+    padding: 32px;
+    .upperLayer{
+         display: flex;
+         flex-direction: column;
+         gap: 6px;
+    .availabe{
+         display: flex;
+         justify-content: space-between;
+         width: 100%;
+         align-items: center;
+         .available_text{
+            font-size: 12px;
+            color: #90D2F8;
+            text-transform: uppercase;
+             font-weight: 400;
+             width: 100%;
+         }
+         .circle, .circle::before {
+            content: " ";
+            margin: 15px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin: 0 auto;
+            transition: all 0.3s;
+            background-color: #00FF00;
+          }
+          
+          .circle::before {
+            animation: mymove 2s infinite;
+            position: absolute;
+            background-color: #00FF00
+          }
+          
+          @keyframes mymove {
+            50%   {
+              transform: scale(2);
+              opacity: 0
+            }
+            100%   {
+              transform: scale(2);
+              opacity: 0
+            }
+          }
+    }
+    .Title{
+         font-size: 30px;
+          font-weight: 600;
+    }
+    .about{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.form{
+   display: flex; 
+   flex-direction: column;
+   gap: 8px;
+   input ,textarea {
+    appearance: none;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1em;
+    text-align: left;
+    background:rgb(245, 245, 245);
+    color:  rgb(44, 43, 48);
+    box-shadow: inset 0 0 0 0px  rgb(68, 138, 255);
+    overflow: hidden;
+ }
+   .name{
+     display: flex;
+     width: 100%;
+     gap: 8px;
+   }
+   .btn{
+    appearance: none;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Rubik, "Rubik Placeholder", sans-serif;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 1em;
+    background:rgb(68, 138, 255);
+    color:  rgb(255, 255, 255);
+    z-index: 1;
+    box-shadow: rgba(69, 138, 255, 0.32) 0px 8px 24px;
+   }
+   .footer{
+    font-size: 14px;
+    color: #bbb;
+    text-align: center;
+   }
+}
+}

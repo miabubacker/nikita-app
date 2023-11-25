@@ -1,0 +1,30 @@
+.Thankyou_Container{
+ 
+    background:rgb(37, 37, 37) ;
+    border-radius: 32px;
+    box-shadow: 0 8px 32px #0000000f;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 24px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 64px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    .icon{
+         font-size: 64px;
+    }
+    .thanks_text{
+        font-size: 56px;
+         color: #90D2F8;
+          font-weight: 700;
+    }
+    .info{
+         font-size: 14px;
+         color: #bbb;
+    }
+}
