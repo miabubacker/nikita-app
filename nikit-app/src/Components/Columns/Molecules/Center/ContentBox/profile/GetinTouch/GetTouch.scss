@@ -7,7 +7,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 16px;
-    height: min-content;
+    height: 591px;
     justify-content: flex-start;
     overflow: hidden;
     padding: 0;
@@ -20,6 +20,7 @@
          display: flex;
          flex-direction: column;
          gap: 6px;
+         margin-top: 16px;
     .availabe{
          display: flex;
          justify-content: space-between;

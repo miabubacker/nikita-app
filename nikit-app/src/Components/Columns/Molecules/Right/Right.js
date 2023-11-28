@@ -9,8 +9,8 @@ export default function Right() {
   return (
     <section className='right_Container'>
         <HowIWork/>
-        <Telegram/>
         <Skill/>
+        <Telegram/>
         <Globes/>
         {/* <GlobeMain/> */}
     </section>
