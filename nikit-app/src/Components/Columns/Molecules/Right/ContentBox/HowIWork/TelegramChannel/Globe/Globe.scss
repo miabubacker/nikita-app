@@ -1,0 +1,36 @@
+.timezone{
+  align-content: flex-start;
+  align-items: flex-start;
+  background:rgb(37, 37, 37);
+   color: white;
+  border-radius: 32px;
+  box-shadow: 0 0.3613123810646357px 1.8065619053231785px -0.8333333333333333px #00000008, 0 1.3731199819460742px 6.8655999097303715px -1.6666666666666665px #00000008, 0 6px 30px -2.5px #00000008;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  // gap: 16px;
+  height: 397px;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  scroll-margin-top: 8px;
+  width: 100%;
+  will-change: var(--framer-will-change-override, transform);
+  .text{
+    padding: 32px;
+     display: flex;
+     flex-direction: column;
+     gap: 6px;
+     .area{
+       font-size: 30px;
+        font-weight: 700;
+     }
+  }
+  .poinu{
+     position: fixed;
+  }
+  .dss{
+color: red;
+  }
+}
