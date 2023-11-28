@@ -26,9 +26,19 @@ export default function Mentorship() {
         </div>
       </div>
       <div className="payment_Methods">
-        <div className={`items`}>
+      <div class="btn3_container">
+    <span class={`btn ${plan&&'btn1'}`} onClick={() => {
+              setPlan(true);
+            }}>Standard plan</span>
+    <span class={`btn main ${plan? 'active':""}`}></span>
+    <span class={`btn ${!plan&&'btn2'}`}onClick={() => {
+              setPlan(false);
+            }}>Sessions</span>
+  </div>
+
+        {/* <div className={`items `}>
           <div
-            className={`classic `}
+            className={`classic ${plan&&'plan'} `}
             onClick={() => {
               setPlan(true);
             }}
@@ -43,7 +53,7 @@ export default function Mentorship() {
           >
             session
           </div>
-        </div>
+        </div> */}
         {plan && (
           <div className="info_section">
             <div className="amount">

@@ -20,8 +20,8 @@ export default function Telegram() {
 </div>
 <div className='section_container'>
   <div className='data'>
-<div className='setup'><StackFillIcon/><p>Ui-kits, icons, mockups, fonts, illustrations, 3D content and more.</p></div>
-<div className='setup'><PlugLineIcon/><p>Useful plugins/materials for Figma and for other programs.</p></div>
+<div className='setup'><StackFillIcon/><p>Ui-kits, icons, mockups, fonts,<br/> illustrations, 3D content and more.</p></div>
+<div className='setup'><PlugLineIcon/><p>Useful plugins/materials for Figma<br/> and for other programs.</p></div>
 <div className='setup'><LinkIcon /><p>Links to interesting sites for you..</p></div>
 <div className='setup'><Download2LineIcon/><p>Download files directly. All free!</p></div>
   </div>

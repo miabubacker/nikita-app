@@ -30,20 +30,23 @@
          }
     }
     .main_spinner{
-        height: 40px;
+        height: 170px;
         width: 420px;
         overflow: hidden;
         position: relative;
+         display: flex;
+         flex-direction: column;
+         gap: 16px;
         .roll{
             display: flex;
             gap: 8px;
             position: absolute;
             overflow: hidden;
-          left:0;
-            animation: marquee 10s linear infinite;
+        //   left:0;
+            animation: marquee 15s linear infinite;
             .btns{
                 padding: 8px 16px;
-                border:  1px solid rgb(56,56,56);
+                border:  1.5px solid rgb(56,56,56);
                  font-size: 14px;
                   font-weight: 500;
                  color: #bbbb;
@@ -52,10 +55,36 @@
                  
            }
         }
+        @keyframes marquee {
+            0% { right: 0; }
+            100% { right: -100%; }
+          }
+        .Middle{
+            position: absolute;
+             top: 46px;
+              display: flex;
+              gap: 8px;
+             animation: marqueemiddle 20s linear infinite;
+             .btns{
+                padding: 16px;
+                border:  1px solid rgb(56,56,56);
+                //  color: #bbbb;
+                 border-radius: 10px;
+                 white-space: nowrap;
+        //    .fa-shopping-cart{
+             color: #90d2f8;
+        //    }
+           }
+        }
+        @keyframes marqueemiddle {
+            0% { left: 0; }
+            100% { left: -100%; }
+          }
+          .lower{
+             position: absolute;
+             top: 120px;
+          }
            
     }
-    @keyframes marquee {
-        0% { left: 0; }
-        100% { left: -100%; }
-      }
+  
 }
