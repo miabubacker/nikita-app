@@ -13,3 +13,15 @@ position: relative;
 width: 400px;
 z-index: 1;
 }
+
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .center_Container{
+         width: 379px;
+    }
+}
+@media (min-width: 767px) and (max-width: 1199px){
+    .center_Container {
+        display: none;
+    }
+    }
