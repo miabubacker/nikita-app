@@ -14,3 +14,8 @@
     width: 400px;
     z-index: 1;
     }
+    @media screen and (min-width: 1200px) and (max-width: 1440px) {
+        .right_Container{
+             width: 379px;
+        }
+    }

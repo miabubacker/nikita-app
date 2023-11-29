@@ -14,3 +14,9 @@
     width: min-content;
     z-index: 1;
 }
+@media (min-width: 767px) and (max-width: 1199px){
+.Cards_container {
+    gap: 8px;
+    padding: 0 16px;
+}
+}
