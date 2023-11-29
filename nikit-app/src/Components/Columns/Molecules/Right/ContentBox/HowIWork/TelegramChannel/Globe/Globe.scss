@@ -34,3 +34,13 @@
 color: red;
   }
 }
+@media (min-width: 319px) and (max-width: 1199px){
+  .timezone{
+     border: 24px;
+     padding: 24px;
+     height:350px;
+     .text{
+      padding: 24px;
+     }
+  }
+}

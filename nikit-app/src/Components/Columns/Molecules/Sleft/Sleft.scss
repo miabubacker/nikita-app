@@ -1,0 +1,14 @@
+.SLeft_container{
+    align-self: stretch;
+    gap: 8px;
+    height: auto;
+    padding: 8px 0;
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 767px) {
+    .SLeft_container{
+display: none;
+    }
+}

@@ -37,3 +37,16 @@
            justify-content: center;
     }
 }
+@media (min-width: 767px) and (max-width: 1199px){
+    .headerBox_Container {
+      justify-content: center;
+      .text{
+font-size: 20px;
+line-height: 30px;
+ font-weight: 400;
+      }
+      .grammer{
+         font-weight: bolder;
+      }
+    }
+    }

@@ -23,7 +23,24 @@ export default function Globes() {
      console.log(globeEl.current.postProcessingComposer())
       console.log(globeEl.current.controls())
   }, []);
-
+  const useMediaQuery = (query) => {
+    const [matches, setMatches] = useState(false);
+  
+    useEffect(() => {
+      const media = window.matchMedia(query);
+      if (media.matches !== matches) {
+        setMatches(media.matches);
+      }
+      const listener = () => setMatches(media.matches);
+      window.addEventListener("resize", listener);
+      return () => window.removeEventListener("resize", listener);
+    }, [matches, query]);
+  
+    return matches;
+  }
+  const isSmall = useMediaQuery('(min-width: 767px) and (max-width: 1199px)');
+  const isMobile = useMediaQuery('(min-width: 319px) and (max-width: 767px)');
+  
   return (
     <div  className='timezone'>
       <div className='text'>
@@ -31,9 +48,9 @@ export default function Globes() {
         <p>(GMT+4)</p>
       </div>
          <Globe
-          width={400}
+          width={(!isSmall&&!isMobile&&400||isSmall&&!isMobile&&300||isMobile&&!isSmall&&307)}
           bumpImageUrl={gg}
-          height={400}
+          height={(!isSmall&&!isMobile&&400||isSmall&&!isMobile&&300||isMobile&&!isSmall&&325)}
            className={'poinu'}
           backgroundColor={'rgb(37, 37, 37)'}
           animateIn={true}
@@ -47,8 +64,7 @@ export default function Globes() {
           pointAltitude={0.2}
     pointsData={[data]}
 
-  
-  />
+/>
     </div>
   )
 }

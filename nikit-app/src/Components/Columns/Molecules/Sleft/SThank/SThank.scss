@@ -1,0 +1,23 @@
+.Sthanks{
+    border-radius: 24px;
+    padding: 56px;
+    background:rgb(37, 37, 37) ;
+    box-shadow: 0 8px 32px #0000000f;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+   
+    .info_bg{
+        font-size: 14px;
+        color: #bbb;
+    }
+}
+ 
+@media (min-width: 319px) and (max-width: 769px){
+    .Sthanks{
+         background: none;
+    }
+}

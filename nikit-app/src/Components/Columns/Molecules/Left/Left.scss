@@ -19,4 +19,14 @@
          width: 379px;
     }
 }
+@media (min-width: 767px) and (max-width: 1199px){
+    .left_Container {
+        display: none;
+    }
+    }
+    @media  (max-width: 767px){
+        .left_Container {
+            display: none;
+        }
+        }
 

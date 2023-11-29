@@ -11,7 +11,7 @@
     height: 504px;
     justify-content: center;
     overflow: hidden;
-    padding: 16px 0 40px;
+    padding: 16px  40px 0;
     position: relative;
     width: 100%;
     z-index: 0;
@@ -59,7 +59,7 @@
 }
 .set{
     flex: none;
-    height: 300px;
+    height: 346px;
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -117,10 +117,55 @@ height: 40px;
         }
     }
 }
-
-
 @media (min-width: 767px) and (max-width: 1199px){
-    .profile_Container {
-order: 2;
+.profile_Container{
+    .set{
+        flex: none;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+    .profile_textContainer{
+        .name{
+            font-family: 'Rubik', sans-serif;
+             font-weight: 500;
+             font-size: 32px;
+             line-height: 38px;
+        }
+        .socialnetworkContainer{
+            .circle{
+                 font-size: 12px;
+                  font-weight: 400;
+            }
+        }
+    }
+}
+}
+@media (min-width: 319px) and (max-width: 767px){
+    .profile_Container{
+         padding: 0;
+        .set{
+            flex: none;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+        .profile_textContainer{
+            .name{
+                font-family: 'Rubik', sans-serif;
+                 font-weight: 500;
+                 font-size: 32px;
+                 line-height: 38px;
+            }
+            .socialnetworkContainer{
+                .circle{
+                     font-size: 12px;
+                      font-weight: 400;
+                }
+            }
+        }
     }
     }
+

@@ -117,3 +117,14 @@
 }
 
 }
+@media (min-width: 319px) and (max-width: 1199px){
+    .Telegram_Container{
+         border-radius: 24px;
+         padding: 24px;
+         .upperLayer{
+            .about{
+                 font-size: 15px;
+            }
+         }
+    }
+}
