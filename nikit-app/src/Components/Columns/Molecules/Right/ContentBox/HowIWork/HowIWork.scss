@@ -48,7 +48,7 @@
             width: 100%;
             .mydesign{
                  font-size: 12px;
-                 font-weight: 600;
+                 font-weight: 500;
                  text-transform: uppercase;
             }
             h2{
@@ -64,11 +64,12 @@
     height: min-content;
     justify-content: flex-start;
     overflow: hidden;
-    padding: 0 0 28px;
+    padding: 0 7px 28px;
     position: relative;
     width: 100%;
-     font-size: 16px;
-     font-weight: 500;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 24px;
     //  letter-spacing: 0.5px;
             }
         }
@@ -83,3 +84,68 @@
          background: #252525;
     }
 }
+
+@media (min-width: 767px) and (max-width: 1199px){
+ .howiWork_Container{
+    border-radius: 24px;
+    .workContainer{
+        padding: 24px 24px 0;
+        .topLayer{
+            .mydesign{
+                font-size: 12px;
+                line-height: 17px;
+                font-weight: 500;
+            }
+            .content{
+                 font-weight: 400;
+                 line-height: 23px;
+                 padding: 0 0 28px;
+            }
+        }
+    }
+    .collapse{
+    padding: 16px 24px 8px;
+    .CollapseParent{
+        .ant-collapse-item{
+            .ant-collapse-content-box{
+                p{font-size: 15px;
+}
+            }
+        }
+    }
+    }
+ }   
+}
+
+
+@media (min-width: 319px) and (max-width: 767px){
+    .howiWork_Container{
+       border-radius: 24px;
+       .workContainer{
+           padding: 24px 24px 0;
+           .topLayer{
+               .mydesign{
+                   font-size: 12px;
+                   line-height: 17px;
+                   font-weight: 500;
+               }
+               .content{
+                    font-weight: 400;
+                    line-height: 23px;
+                    padding: 0 0 28px;
+               }
+           }
+       }
+       .collapse{
+       padding: 16px 24px 8px;
+       .CollapseParent{
+           .ant-collapse-item{
+               .ant-collapse-content-box{
+                   p{font-size: 15px;
+   }
+               }
+           }
+       }
+       }
+    }   
+   }

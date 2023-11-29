@@ -49,13 +49,15 @@
       .mydesign {
         font-size: 12px;
         font-weight: 700;
+        line-height: 17px;
         text-transform: uppercase;
         color: #90d2f8;
       }
       h2 {
-        font-size: 30px;
+        font-size: 32px;
+         font-family: sans-serif;
         //  color: #222222;
-        font-weight: bolder;
+        font-weight: 500;
       }
       .content {
         height: min-content;
@@ -64,8 +66,8 @@
         position: relative;
         width: 100%;
         font-size: 16px;
-        line-height: 1.8rem;
-        font-weight: 600;
+        line-height: 23px;
+        font-weight: 400;
         //  color: #222222;
         //  letter-spacing: 0.5px;
       }
@@ -151,7 +153,7 @@
         //  color: black !important;
         // box-shadow: 0px 0px 17px -5px #000000;
         // border: 1px solid #111;
-        left: 170px;
+        left: 50%;
         z-index: 0;
         transition: all 500ms ease;
       }
@@ -162,12 +164,12 @@
       }
       
       .btn1 {
-        color: #222  !important;
+        color: #222222  !important;
         // background-color: #000000;
       }
       
       .btn2 {
-        color: #222  !important;
+        color: #222222  !important;
         //  color: #bbb;
         // background-color: #000000;
       }
@@ -201,6 +203,7 @@
         span {
           font-size: 14px;
           color: #bbbb;
+          line-height: 21px;
         }
       }
       .contact_details {
@@ -295,7 +298,8 @@
         padding: 14px;
         color: #90d2f8;
         font-size: 20px;
-        font-weight: 600;
+        line-height: 19px;
+        font-weight: 500;
         border: 1px solid #90d2f8;
       }
       .whatsapp {
@@ -317,5 +321,59 @@
         font-weight: 600;
       }
     }
+  }
+}
+@media (min-width: 317px) and (max-width: 1199px){
+  .mentorship_Container{
+     padding: 24px;
+     border-radius: 24px;
+     .mentormain{
+      .topLayer{
+         padding-bottom: 24px;
+        .mydesign{
+           line-height: 17px;
+        }
+        .content{
+          padding: 0 0 8px;
+           font-size: 15px;
+        }
+      }
+     
+     }
+     .payment_Methods{
+        .btn3_container{
+           .btn{
+font-size: 13px;
+ font-weight: 400;
+ line-height: 13px;
+           }
+        }
+        .info_section{
+          .amount{
+            font-size: 38px;
+             line-height: 38px;
+             font-weight: 700;
+          }
+          .contact_details{
+.contact{
+   font-size: 14px;
+}
+          }
+        }
+        .button_Container{
+          .learnmore{
+             height: 50px;
+              font-size: 16px;
+               line-height: 19px;
+               font-weight: 400;
+          }
+          .whatsapp{
+            height: 50px;
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 400;
+          }
+        }
+     }
   }
 }

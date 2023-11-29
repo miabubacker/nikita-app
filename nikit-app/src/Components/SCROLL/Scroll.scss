@@ -1,0 +1,25 @@
+.scroll_Container{
+     display: flex;
+      gap: 8px;
+      --ms-overflow-style:none;
+      scrollbar-width: none;
+      overflow-x: scroll;
+      .btn{
+        padding: 8px 16px;
+        border-radius: 100px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+          color: white;
+           white-space: nowrap;
+          background: rgb(56,56,56);
+           font-size: 13px;
+      }
+      .g{
+        background: #7D4AFF;
+      }
+}
+.scroll_Container::-webkit-scrollbar{
+    display: none;
+}

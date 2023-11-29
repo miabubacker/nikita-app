@@ -109,13 +109,13 @@
     border-radius: 16px;
     font-weight: 400;
     font-size: 20px;
-    font-family: Rubik, "Rubik Placeholder", sans-serif;
     font-style: normal;
     letter-spacing: 0em;
     line-height: 1em;
     background:rgb(68, 138, 255);
     color:  rgb(255, 255, 255);
     z-index: 1;
+     height: 60px;
     box-shadow: rgba(69, 138, 255, 0.32) 0px 8px 24px;
    }
    .footer{
@@ -124,4 +124,26 @@
     text-align: center;
    }
 }
+}
+@media (min-width: 319px) and (max-width: 1199px){
+  .getinTouch_Container{
+     border-radius: 24px;
+     padding: 24px;
+     height: fit-content;
+     .form{
+      input ,textarea {
+font-size: 14px;
+ border-radius: 12px;
+ padding: 14px 16px;
+      }
+      .btn{
+        height: max-content;
+         padding: 16px;
+          font-size: 16px;
+          line-height: 16px;
+          border-radius: 12px;
+           font-weight: 400;
+      }
+     }
+  }
 }

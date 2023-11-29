@@ -25,3 +25,8 @@ z-index: 1;
         display: none;
     }
     }
+    @media  (max-width: 767px){
+        .center_Container {
+            display: none;
+        }
+        }

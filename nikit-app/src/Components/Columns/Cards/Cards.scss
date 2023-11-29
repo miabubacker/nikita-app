@@ -20,3 +20,13 @@
     padding: 0 16px;
 }
 }
+@media (min-width: 319px) and (max-width: 767px){
+.Cards_container{
+    // align-items: center;
+     flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    padding: 8px 8px 0;
+
+}
+}

@@ -15,9 +15,9 @@ export default function Aboutme() {
         <h1>My Design Concepts</h1>
         <div>
           <p>
-            "I’m a Digital Product Designer. Creating beautiful interfaces and
+            I’m a Digital Product Designer. Creating beautiful interfaces and
             providing intuitive user interactions is my passion. I describe
-            myself as a creative problem solver."
+            myself as a creative problem solver.
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function Blog() {
         <div className='topLayer'>
             <div className='mydesign'>BLOG</div>
             <div><h2>My Thoughts, Ideas<br/>and Reflections</h2></div>
-            <p className='content'>Here you'll find a treasure trove of articles <br/> filled with ideas, inspiration, tips, design<br/> processes and more.</p>
+            <p className='content'>Here you'll find a treasure trove of articles filled with ideas, inspiration, tips, design processes and more.</p>
         </div>
     </div>
     <div className='overview'>

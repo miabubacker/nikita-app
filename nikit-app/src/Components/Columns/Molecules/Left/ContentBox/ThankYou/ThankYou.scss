@@ -23,8 +23,27 @@
          color: #90D2F8;
           font-weight: 700;
     }
-    .info{
+    .info_bg{
          font-size: 14px;
          color: #bbb;
     }
 }
+@media (min-width: 319px) and (max-width: 1199px){
+     .Thankyou_Container{
+           border-radius: 24px;
+           padding: 34px 45px;
+           align-items: flex-start;
+           gap: 40px;
+           .icon{
+                font-size: 40px;
+           }
+           .thanks_text{
+                font-size: 41px;
+                line-height: 49px;
+           }
+           .info_bg{
+                display: none;
+           }
+     }
+}
+

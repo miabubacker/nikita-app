@@ -1,0 +1,23 @@
+.mobile_Container{
+  display: flex;
+width: 100%;flex-direction: column;
+gap: 8px;
+position: relative;
+.setx{
+position: absolute;
+ display: flex;
+ gap: 6px;
+border-radius: 16px;
+    box-shadow: 0 1px 8px #00000014;
+    left: 16px;
+    min-height: unset;
+    padding: 8px 8px 8px 14px;
+    right: 16px;
+    top: 8px;
+    transition: transform 150ms ease-in-out;
+}
+nav.nav-bar--hidden {
+    transform: translateY(-100%);
+  }
+
+}
