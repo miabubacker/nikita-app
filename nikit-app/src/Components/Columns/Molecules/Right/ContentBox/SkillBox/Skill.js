@@ -16,12 +16,6 @@ export default function Skill() {
           Skills & <span>Tools</span>
         </p>
       </div>
-      {/* <div class="marquee"> */}
-  {/* <div className="roll">
-    <span className="btns">ui/ux Designer</span>
-    <span>You spin me right round, baby. Like a record, baby.</span>
-  </div> */}
-{/* </div> */}
       <div className="main_spinner">
 <div className="roll">
     <div className="btns">ui/ux Designer</div>

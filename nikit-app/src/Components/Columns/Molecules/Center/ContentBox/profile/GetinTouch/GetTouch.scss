@@ -74,7 +74,7 @@
    display: flex; 
    flex-direction: column;
    gap: 8px;
-   input ,textarea {
+     textarea {
     appearance: none;
     width: 100%;
     // height: 45px;
@@ -92,6 +92,25 @@
     color:  rgb(44, 43, 48);
     box-shadow: inset 0 0 0 0px  rgb(68, 138, 255);
     overflow: hidden;
+ }
+ input{
+  appearance: none;
+  width: 100%;
+  // height: 45px;
+  outline: none;
+  border: none;
+  padding: 20px;
+  border-radius: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1em;
+  text-align: left;
+  background:rgb(245, 245, 245);
+  color:  rgb(44, 43, 48);
+  box-shadow: inset 0 0 0 0px  rgb(68, 138, 255);
+  overflow: hidden;
  }
    .name{
      display: flex;

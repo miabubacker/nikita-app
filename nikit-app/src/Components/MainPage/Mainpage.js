@@ -22,15 +22,10 @@ export default function Mainpage(props) {
                     <>
                          <Header {...props} />
                          <Routes>
-                            
                             <Route path="/" element={<Cards {...props}/>}/>
-                            {/* // <Route path="/" element={<Home {...props} />} />
-                            // <Route path="/_about-me" element={<About {...props} />} />
-                            // <Route path="/_projects" element={<Project {...props} />} />
-                            // <Route path="/contact" element={<Contact {...props} />} /> */}
                         </Routes>
                         <Footer {...props} /> 
-                        <FixedMade/>
+                        {/* <FixedMade/> */}
                     </>
                     : <div className="loading">Loading...</div>}
              </section> 
