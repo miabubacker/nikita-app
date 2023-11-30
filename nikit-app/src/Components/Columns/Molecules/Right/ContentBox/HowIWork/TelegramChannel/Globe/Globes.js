@@ -20,8 +20,8 @@ export default function Globes() {
     globeEl.current.postProcessingComposer().poisition='relative'
     globeEl.current.postProcessingComposer().left='-490px'
      setData(globeEl.current.pointOfView())
-     console.log(globeEl.current.postProcessingComposer())
-      console.log(globeEl.current.controls())
+    //  console.log(globeEl.current.postProcessingComposer())
+    //   console.log(globeEl.current.controls())
   }, []);
   const useMediaQuery = (query) => {
     const [matches, setMatches] = useState(false);
