@@ -21,13 +21,15 @@ export default function Skill() {
       <div className="main_spinner">
 <div className="roll">
 <div className="btns">UI/UX Developer</div>
-<div className="btns">Interaction Testing</div>
-<div className="btns">Development Sprint</div>
-<div className="btns">Interaction Development</div>
-<div className="btns">Project Management</div>
-<div className="btns">Technical Workshop</div>
-<div className="btns">Usability Testing</div>
-<div className="btns">UI/UX Developer</div>
+<div className="btns">HTML5 / Css3</div>
+<div className="btns">JavaScript</div>
+<div className="btns">React</div>
+<div className="btns">Redux</div>
+<div className="btns">Sass.css</div>
+<div className="btns">Tailwind</div>
+<div className="btns">GitHub</div>
+<div className="btns">Bitbucket</div>
+<div className="btns">Firebase</div>
 </div>
 <div className="Middle">
 <div className="btns"><Html5FillIcon/></div>
@@ -46,13 +48,14 @@ export default function Skill() {
 <div className="btns"><MediumFillIcon/></div>
 </div>
 <div className="roll lower">
-<div className="btns">UI Development</div>
-<div className="btns">Web Development</div>
-<div className="btns">No-Code Solutions</div>
-<div className="btns">UX Research</div>
-<div className="btns">UI Research</div>
-<div className="btns">User Testing</div>
-<div className="btns">Leadership</div>
+<div className="btns">Node.js</div>
+<div className="btns">MongoDB</div>
+<div className="btns">Express.js</div>
+<div className="btns">Antd</div>
+<div className="btns">lottie</div>
+<div className="btns">moments</div>
+<div className="btns">Video.js</div>
+<div className="btns">Shaka Player</div>
 <div className="btns">Mentorship</div>
 
 </div>

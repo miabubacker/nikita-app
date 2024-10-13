@@ -63,8 +63,8 @@ export default function Mobile() {
       <div className={navClassList.join(" ")}>
         <div className="inside">
           <div className="Name_container">
-            <h1>Nikita Ermilov</h1>
-            <h2>UI/UX & Web Designer</h2>
+            <h1>Abubacker Siddique</h1>
+            <h2>UI/UX web Developer</h2>
           </div>
           <div className="icon_conatainer">
             <p

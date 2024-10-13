@@ -6,7 +6,7 @@ export default function Scroll(props) {
 <section className='scroll_Container'>
     <div className='btn g'>Buy Template</div>
     <div  className='btn' onClick={()=>{handleClickScroll('aboutme')}}>About</div>
-    <div  className='btn'  onClick={()=>{handleClickScroll('howiwork')}}>Design Process</div>
+    <div  className='btn'  onClick={()=>{handleClickScroll('howiwork')}}>Development Process</div>
     <div  className='btn' onClick={()=>{handleClickScroll('skill')}}>Skill</div>
     <div  className='btn'  onClick={()=>{handleClickScroll('blog')}}>Blog</div>
     <div  className='btn'  onClick={()=>{handleClickScroll('telegram')}}>Telegram Channel</div>
