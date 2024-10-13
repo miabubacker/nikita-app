@@ -44,8 +44,8 @@ export default function Globes() {
   return (
     <div  className='timezone'>
       <div className='text'>
-        <p className='area'>Georgia, Tbilisi</p>
-        <p>(GMT+4)</p>
+        <p className='area'>Tamilnadu, India</p>
+        <p>(GMT+5:30)</p>
       </div>
          <Globe
           width={(!isSmall&&!isMobile&&400||isSmall&&!isMobile&&300||isMobile&&!isSmall&&307)}

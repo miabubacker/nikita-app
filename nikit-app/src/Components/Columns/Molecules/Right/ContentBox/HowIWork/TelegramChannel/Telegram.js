@@ -14,14 +14,14 @@ export default function Telegram() {
             <div className='channel'>My Telegram Channel</div>
         </div>
         <div className='Title'>
-            Designer Bookmarks
+        UI/UX Developer Resources
         </div>
-        <div className='about'>Here I share interesting stuff for designers.</div>
+        <div className='about'>A curated collection of valuable resources for UI/UX developers.</div>
 </div>
 <div className='section_container'>
   <div className='data'>
 <div className='setup'><StackFillIcon/><p>Ui-kits, icons, mockups, fonts,<br/> illustrations, 3D content and more.</p></div>
-<div className='setup'><PlugLineIcon/><p>Useful plugins/materials for Figma<br/> and for other programs.</p></div>
+<div className='setup'><PlugLineIcon/><p>Useful plugins/materials <br/> and for other programs.</p></div>
 <div className='setup'><LinkIcon /><p>Links to interesting sites for you..</p></div>
 <div className='setup'><Download2LineIcon/><p>Download files directly. All free!</p></div>
   </div>

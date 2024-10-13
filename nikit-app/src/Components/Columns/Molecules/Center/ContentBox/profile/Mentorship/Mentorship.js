@@ -14,14 +14,13 @@ export default function Mentorship() {
       <div className="mentormain">
         <div className="topLayer">
           <div className="mydesign">
-            6+ years of industry experience in design
+          2+ Years of Industry Experience in UI/UX Development
           </div>
           <div>
             <h2>Mentorship</h2>
           </div>
           <p className="content">
-            Help for junior UI/UX designers and those moving into product
-            development.
+          Help for Junior UI/UX Developers and Those Transitioning into Product Development
           </p>
         </div>
       </div>

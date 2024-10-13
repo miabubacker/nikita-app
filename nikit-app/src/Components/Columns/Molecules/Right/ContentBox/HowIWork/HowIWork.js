@@ -1,27 +1,54 @@
-import React from 'react'
-import './HowIWork.scss'
-import CollapseComponent from './Collapse/CollapseComponent'
+import React from "react";
+import "./HowIWork.scss";
+import CollapseComponent from "./Collapse/CollapseComponent";
 export default function HowIWork() {
-     const data=[{title:"Strategy",about:"Asking Questions. Before Jumping into designing I always make sure that we're asking the right questions and trying to accomplish the right challenges. This stage includes market research, competitive analyses, consulting and exploring possible solutions."}
-    ,
-    {title:"Design",about:"Problem solving. To me design is all about problem solving. This is where we're trying to come up with solutions for the challenges and questions that we formed during the previous phase."},
-    {title:"Prototyping & Development",about:"Bringing Designs to life. Since I'm a designer who can code too, I can easily work in close collaboration with developers up until the finish line and beyond. In case of web projects I also do front-end development."}
-,{title:"Quality assurance",about:"Transparent process. Complete overview of my design process through regular meetings. After the initial design versions I'm happy to do user testing with your customers to ensure the best possible solutions for their needs."}]
+  const data = [
+    {
+      title: "Strategy",
+      about:
+        "Asking the Right Questions Before diving into development, I ensure that we are addressing the right challenges. This phase involves thorough market research, competitive analysis, consulting with stakeholders, and exploring potential solutions. It’s crucial to align the technical implementation with user needs and business goals to deliver an optimal product experience.",
+    },
+    {
+      title: "Development",
+      about:
+        "Problem Solving For me, development is all about problem solving. This is where I focus on implementing solutions for the challenges and questions identified during the previous phase. By translating design concepts into functional, responsive, and user-friendly interfaces, I ensure that the final product addresses both user needs and business goals.",
+    },
+    {
+      title: "Prototyping & Development",
+      about:
+        "Bringing Designs to Life As a UI/UX Developer, I bridge the gap between design and development. I bring designs to life by coding and collaborating closely with other developers throughout the entire process and beyond. For web projects, I handle the front-end development, ensuring that the final product is both visually appealing and fully functional.",
+    },
+    {
+      title: "Quality assurance",
+      about:
+        "Transparent Process I prioritize a transparent development process by providing a complete overview of my work through regular meetings. After delivering the initial versions, I conduct user testing with your customers to ensure the best possible solutions that meet their needs and expectations",
+    },
+  ];
   return (
-  <section className='howiWork_Container'>
-    <div className='workContainer'>
-        <div className='topLayer'>
-            <div className='mydesign'>My design process</div>
-            <div><h2>How I Work</h2></div>
-            <p className='content'>When it comes to design I always like to approach projects from a broader perspective, considering business goals, user needs, feedbacks as well as the overall feel and aesthetic of the end-to-end experience.</p>
+    <section className="howiWork_Container">
+      <div className="workContainer">
+        <div className="topLayer">
+          <div className="mydesign">My Development Process</div>
+          <div>
+            <h2>How I Work</h2>
+          </div>
+          <p className="content">
+            As a UI/UX Developer, I approach projects with a holistic mindset,
+            considering not only the business goals and user needs but also how
+            feedback and the end-to-end experience translate into seamless,
+            functional, and visually appealing user interfaces. I ensure that
+            the aesthetic complements the performance and usability of the
+            product.
+          </p>
         </div>
-    </div>
-    <div className='collapse'>
-         {data.map((value,index)=><React.Fragment key={index}>
-            <CollapseComponent value={value} index={index}/>
-         </React.Fragment>)}
-           
-        </div>
-  </section>
-  )
+      </div>
+      <div className="collapse">
+        {data.map((value, index) => (
+          <React.Fragment key={index}>
+            <CollapseComponent value={value} index={index} />
+          </React.Fragment>
+        ))}
+      </div>
+    </section>
+  );
 }
