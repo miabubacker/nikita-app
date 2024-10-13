@@ -13,7 +13,7 @@ import ThankYou from "../Left/ContentBox/ThankYou/ThankYou";
 import SThank from "../Sleft/SThank/SThank";
 import Scroll from "../../../SCROLL/Scroll";
 import ArrowUpSLineIcon from "remixicon-react/ArrowUpSLineIcon";
-import pr from "./../../../Assets/Imgs/nikit_profilepic.jpg";
+import pr from "./../../../Assets/Imgs/abupic.jpg";
 import AtLineIcon from "remixicon-react/AtLineIcon";
 import useScrollListener from "../../../SCROLL/ScrollBehave";
 
