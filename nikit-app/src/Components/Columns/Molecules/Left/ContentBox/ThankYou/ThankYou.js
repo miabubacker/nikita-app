@@ -26,7 +26,7 @@ export default function ThankYou() {
         <p>you for</p>
         <p>watching!</p>
         </div>
-        <div className='info_bg'>© Design by Nikita Ermilov • 2023</div>
+        <div className='info_bg'>© Developed by Abubacker • 2023</div>
 </section>
   )
 }
